@@ -1,0 +1,59 @@
+.list_contacts{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.item_contact{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-family: Inter;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn_delete{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: #70A9ED;
+    transition: background-color .3s ease-in-out;
+}
+
+.btn_delete:hover, .btn_delete:active {
+    background-color: #295383;
+}
+
+.btn_delete svg{
+    width: 30px;
+    height: 30px;
+    fill: #FFFFFF;
+}
+
+.btn_delete:hover svg, .btn_delete:active svg{
+    fill: #FFFFFF;
+}
+
+.delete_icon{
+    width: 30px;
+    height: 30px;
+    fill: #000000;
+    cursor: pointer;
+    transition: fill .3s ease-in-out;
+}
+
+.delete_icon:hover, .delete_icon:active {
+    fill: #E84D4D;
+}

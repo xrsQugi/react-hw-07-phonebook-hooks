@@ -1,0 +1,22 @@
+.label_text{
+    color: #000;
+    font-size: 28px;
+    font-family: Inter;
+}
+
+.input_filter{
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #000;
+    background-color: transparent;
+    width: 340px;
+    padding: 10px 0 10px 20px;
+    color: #9C9C9C;
+    font-size: 24px;
+    font-family: Inter;
+}
+
+.input_filter:focus{
+    border: 2px solid #70A9ED;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.20);
+}
